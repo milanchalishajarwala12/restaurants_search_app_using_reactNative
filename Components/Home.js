@@ -44,7 +44,7 @@ export default function Home() {
           {name}
         </Text>
         <Text style={styles.priceAndRating}>
-          <Text>Rating: {rating}</Text> <Text>Reviews: {reviews}</Text>
+          <Text>Rating: {rating/5}</Text> <Text>Reviews: {reviews}</Text>
         </Text>
       </TouchableOpacity>
     );
