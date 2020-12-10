@@ -17,7 +17,7 @@ export default function Details({ route }) {
   const { name, reviews, ratings, imageUrl } = route.params;
   return (
     <View>
-      {useNavigation().setOptions({ title: name })}
+      {useNavigation().setOptions({ title: name + ", rating: " + ratings + "/5" })}
       <Text>{route.params.name}</Text>
     </View>
   );
