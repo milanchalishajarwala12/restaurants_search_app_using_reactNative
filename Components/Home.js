@@ -34,15 +34,15 @@ export default function Home() {
           navigation.setOptions({ title: name });
         }}
       >
-        {/* <Image
+        <Image
           style={styles.image}
           source={{
             uri: imageUrl,
           }}
-        /> */}
-        <Text numberOfLines={1} style={styles.resName}>
+        />
+        {/* <Text numberOfLines={1} style={styles.resName}>
           {name}
-        </Text>
+        </Text> */}
         <Text style={styles.priceAndRating}>
           <Text>Rating: {rating/5}</Text> <Text>Reviews: {reviews}</Text>
         </Text>
